@@ -72,6 +72,7 @@ npm start
 ```
 - The app will be available at http://localhost:3000.
 
+
 ### 4. Running the Application
 1. Run the Backend First:
    - Start the backend server by navigating to the backend directory and running `node app.js.`
@@ -82,12 +83,18 @@ npm start
 ### 5. How It Works
 1. Google OAuth Login
     - Users authenticate securely via their Google account using OAuth 2.0.
+      ![image](https://github.com/user-attachments/assets/bea35cea-a90b-497e-89dc-44326fc8b5ad)
+
 2. Invoice Management
     - The app fetches and displays a list of invoices.
     - Overdue invoices are highlighted for easy identification.
+      ![image](https://github.com/user-attachments/assets/bdbffe47-f6ce-4099-9182-94b4d48eaa90)
+
 3. Email Notification
     - On triggering the email function, the app sends a POST request to the Zapier webhook.
     - Zapier processes the request and sends email notifications to overdue clients.
+      ![image](https://github.com/user-attachments/assets/d6028074-e047-47d4-b96e-41f455a1aed7)
+
  - Sample Payload
 ```bash
 {
