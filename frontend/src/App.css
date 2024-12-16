@@ -1,0 +1,57 @@
+/* Add this to App.css or inline styles */
+
+.app-container {
+  
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+.login-container {
+  margin: auto;
+  max-width: 400px;
+  padding: 20px;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.dashboard {
+  margin: auto;
+  max-width: 800px;
+}
+
+.dashboard-header {
+  margin-bottom: 20px;
+}
+
+.action-buttons .btn {
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.btn-logout { background: #f44336; }
+.btn-fetch { background: #4CAF50; }
+.btn-email { background: #008CBA; }
+
+.invoice-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.invoice-item {
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.invoice-details {
+  font-size: 16px;
+}
