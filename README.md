@@ -1,7 +1,7 @@
 # Invoice Automation System with Email Notification
 
 ## Overview
-This project is an **Invoice Management System** that enables users to manage invoices and send automated email reminders to clients with overdue payments. The system uses **React.js** for the frontend, **Google OAuth** for authentication, and **Zapier Webhooks** for sending email notifications.
+This project is an **Invoice Management System** that enables users to manage invoices and send automated email reminders to clients with overdue payments.The system uses **React.js** for the frontend, **Google OAuth** for authentication, and **Zapier Webhooks** for sending email notifications.
 
 ---
 
