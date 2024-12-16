@@ -16,10 +16,11 @@ This project is an **Invoice Management System** that enables users to manage in
 ## Tech Stack
 | Component       | Technology                  |
 |------------------|-----------------------------|
+| Backend          | node.js                     |
 | Frontend         | React.js, CSS              |
 | Authentication   | Google OAuth 2.0           |
 | Email Service    | Zapier Webhooks            |
-| Deployment       | Vercel                     |
+
 
 ---
 
